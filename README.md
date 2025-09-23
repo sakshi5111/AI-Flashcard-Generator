@@ -1,19 +1,22 @@
-📚 AI Flashcard Generator
+# 📚 AI Flashcard Generator
+
 An AI-powered web application that generates flashcards from user input text. This project is built with React for the frontend and integrates with the OpenAI API to generate flashcards automatically.
 
-🚀 Features
 
-✍️ Enter any text or topic, and AI generates flashcards.
+## 🚀 Features
 
-🃏 Flashcards with questions & answers for easy learning.
+✍️ Enter any text or topic, and AI generates flashcards
 
-🎨 Clean and responsive UI with Tailwind CSS.
+🃏 Flashcards with questions & answers for easy learning
 
-🔗 Backend integration with Node.js/Express for OpenAI API calls.
+🎨 Clean and responsive UI with Tailwind CSS
 
-💾 Flashcards can be displayed, reviewed, and studied.
+🔗 Backend integration with Node.js/Express for OpenAI API calls
 
-🛠️ Tech Stack
+💾 Flashcards can be displayed, reviewed, and studied
+
+
+## 🛠️ Tech Stack
 
 Frontend: React, Tailwind CSS
 
