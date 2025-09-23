@@ -14,23 +14,10 @@ const Layout = () => {
         }
       );
       setData(response.data.flashcards);
-      console.log(data);
     } catch (error) {
       console.log("Error", error);
     }
   };
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await axios.get("http://localhost:5000/");
-  //       setData(response.data);
-  //     } catch (error) {
-  //       console.log("Error", error);
-  //     }
-  //   };
-  //   fetchData();
-  // }, []);
 
   return (
     <div className="min-h-screen items-center justify-center bg-gradient-to-br from-indigo-100 via-white to-purple-100 p-6">
