@@ -20,7 +20,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="min-h-screen items-center justify-center bg-gradient-to-br from-indigo-100 via-white to-purple-100 p-6">
+    <div className="h-screen items-center justify-center bg-gradient-to-br from-indigo-100 via-white to-purple-100 p-6">
       <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md text-center space-y-6">
         <h1 className="font-extrabold text-3xl sm:text-4xl text-gray-800">
           AI Flashcard Generator
