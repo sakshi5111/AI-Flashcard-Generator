@@ -1,6 +1,5 @@
 import OpenAI from "openai";
 import dotenv from "dotenv";
-
 dotenv.config();
 
 const openai = new OpenAI({
@@ -28,7 +27,7 @@ export const getFlashcardsFromOpenAI = async (text) => {
   try {
     flashcards = JSON.parse(response.choices[0].message.content);
   } catch (error) {
-    console.log("Error parsing OpenAI response", error);
+    console.log("Error parsing the OpenAI response", error);
     throw new Error("Failed to parse AI response");
   }
 
