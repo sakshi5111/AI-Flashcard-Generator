@@ -9,7 +9,6 @@ const openai = new OpenAI({
 export const getFlashcardsFromOpenAI = async (text) => {
   const prompt = `Create 3-6 study flashcards from the following text. Each flashcard should be in JSON format with "question" and "answer".
   Text: ${text}
-
   Example output:
   [
     {"question": "What is photosynthesis?", "answer": "The process by which plants make food using sunlight, water, and CO2."},
@@ -28,8 +27,7 @@ export const getFlashcardsFromOpenAI = async (text) => {
     flashcards = JSON.parse(response.choices[0].message.content);
   } catch (error) {
     console.log("Error parsing the OpenAI response", error);
-    throw new Error("Failed to parse AI response");
+    throw new Error("Failed to parse the AI response");
   }
-
   return flashcards;
 };
