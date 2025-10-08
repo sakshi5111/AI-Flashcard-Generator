@@ -7,7 +7,7 @@ const openai = new OpenAI({
 });
 
 export const getFlashcardsFromOpenAI = async (text) => {
-  const prompt = `Create 3-6 study flashcards from the following text. Each flashcard should be in JSON format with "question" and "answer".
+  const prompt = `Create multiples of 3 no. of study flashcards from the following text. Each flashcard should be in JSON format with "question" and "answer".
   Text: ${text}
   Example output:
   [
