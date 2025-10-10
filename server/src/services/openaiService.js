@@ -12,8 +12,14 @@ export const getFlashcardsFromOpenAI = async (text) => {
   Text: ${text}
   Example output:
   [
-    {"question": "What is photosynthesis?", "answer": "The process by which plants make food using sunlight, water, and CO2."},
-    {"question": "Which gas is required?", "answer": "Carbon dioxide (CO2)."}
+    {
+    "question": "What is photosynthesis?", 
+    "answer": "The process by which plants make food using sunlight, water, and CO2."
+    },
+    {
+    "question": "Which gas is required?", 
+    "answer": "Carbon dioxide (CO2)."
+    }
   ]
   `;
 
