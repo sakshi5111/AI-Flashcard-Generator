@@ -33,7 +33,6 @@ export const getFlashcardsFromOpenAI = async (text) => {
   try {
     flashcards = JSON.parse(response.choices[0].message.content);
   } catch (error) {
-    console.log("Error parsing the OpenAI response", error);
     throw new Error("Failed to parse the AI response");
   }
   return flashcards;
