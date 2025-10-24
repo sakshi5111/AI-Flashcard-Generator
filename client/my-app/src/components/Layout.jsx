@@ -15,7 +15,7 @@ const Layout = () => {
       );
       setData(response.data.flashcards);
     } catch (error) {
-      console.log("Error", error);
+      console.log("Error while fetching", error);
     }
   };
 
